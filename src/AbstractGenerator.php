@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: xmat
- * Date: 28.3.19
- * Time: 11:51
- */
-
 namespace MatejKucera\NumberSeriesGenerator;
 
 

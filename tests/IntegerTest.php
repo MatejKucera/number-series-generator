@@ -5,11 +5,6 @@ use PHPUnit\Framework\TestCase;
 
 final class IntegerTest extends TestCase
 {
-	
-	public static function setUpBeforeClass()
-    {
-
-    }
 
     public function testConstructor(): void {
         $generator = new IntegerGenerator(1, 100, 5, 10, 1);
@@ -20,7 +15,7 @@ final class IntegerTest extends TestCase
         $this->assertEquals(1,   $generator->getVolatility());
     }
 
-    public function testBoundaries() {
+    public function testBoundaries(): void {
         $generator = new IntegerGenerator(1000, 5000, 1, 50, 1, 10);
 
         $previous = 0;
@@ -39,7 +34,7 @@ final class IntegerTest extends TestCase
         }
     }
 
-    public function testArray() {
+    public function testArray(): void {
         $generator = new IntegerGenerator(1000, 5000, 1, 50, 1, 10);
 
         $generatedArray = $generator->array(100);
