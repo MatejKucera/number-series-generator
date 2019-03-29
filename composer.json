@@ -1,0 +1,26 @@
+{
+    "name": "matejkucera/number-series-generator",
+    "description": "Semi-random number series generator for PHP. Intended to use as test data generator, for example for graphs etc.",
+    "type": "library",
+    "keywords": ["series","sequence","generator","random","testing"],
+    "homepage": "https://github.com/matejkucera/number-series-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MatejKucera",
+            "email": "matej.kucera@atlas.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MatejKucera\\NumberSeriesGenerator\\": "src/"
+        }
+    },
+	"require": {
+	    "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
