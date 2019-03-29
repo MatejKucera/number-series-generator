@@ -30,3 +30,6 @@ $array = $generator->array(1000);
 
 
 ```
+
+Example of number serie that can be generated:
+![graph](https://i.ibb.co/wMR8ssc/chart.png)
